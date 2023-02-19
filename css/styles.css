@@ -96,6 +96,34 @@ body {
   margin-left: 24px;
 }
 
+.service-button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  height: 50px;
+
+  color: #ffffff;
+}
+
+.section1-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
 .index-section2-list {
   display: flex;
 }
@@ -241,11 +269,13 @@ body {
   color: #2196f3;
 }
 .address-link {
+  font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .address-contacts {
+  font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
