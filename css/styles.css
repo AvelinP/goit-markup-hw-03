@@ -79,7 +79,6 @@ body {
 .index-section1 {
   display: flex;
   flex-direction: column;
-  height: 600px;
   background-color: var(--footer-background-color);
   justify-content: center;
   align-items: center;
@@ -143,12 +142,14 @@ body {
 .index-section2-list {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 .section-what-we-do-image-list,
 .our-team-list {
   display: flex;
   margin: 0px auto 0px 215px;
   gap: 30px;
+  justify-content: center;
 }
 .our-team {
   background-color: #f5f4fa;
@@ -176,7 +177,6 @@ body {
   justify-content: center;
 
   gap: 30px;
-  margin: 0px auto 0px 215px;
   padding: 0px;
 }
 
@@ -199,6 +199,7 @@ body {
   letter-spacing: 0.03em;
   color: #000;
   margin-left: 215px;
+  margin-right: 43px;
 }
 .site-logo::before {
   font-family: "Raleway";
