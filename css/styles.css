@@ -215,9 +215,7 @@ body {
   color: #757575;
 }
 .header-address-links:hover,
-.header-links:hover,
-.header-address-links:focus,
-.header-links:focus {
+.header-links:hover {
   color: var(--highlight-color);
 }
 
