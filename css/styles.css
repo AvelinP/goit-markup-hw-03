@@ -142,14 +142,16 @@ body {
 .index-section2-list {
   display: flex;
   gap: 30px;
-  justify-content: center;
+  margin-left: 215px;
+  padding: 0px;
 }
 .section-what-we-do-image-list,
 .our-team-list {
   display: flex;
-  margin: 0px auto 0px 215px;
   gap: 30px;
-  justify-content: center;
+
+  margin-left: 215px;
+  padding: 0px;
 }
 .our-team {
   background-color: #f5f4fa;
