@@ -40,7 +40,7 @@ body {
 }
 
 .container {
-  width: 1600px;
+  display: flexbox;
 }
 .section {
   padding: 94px 0px;
@@ -80,7 +80,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 600px;
-  background-color: grey;
+  background-color: var(--footer-background-color);
   justify-content: center;
   align-items: center;
 }
@@ -90,6 +90,22 @@ body {
 .our-team-members,
 .our-team-position {
   text-align: center;
+}
+
+.section-what-we-do-title {
+  margin: 0px 0px 50px;
+}
+.section-what-we-do-title,
+.our-team-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var();
 }
 .project-description,
 .project-category {
@@ -165,6 +181,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px;
+  margin: 0px;
 }
 .site-logo {
   font-family: "Raleway";
@@ -190,9 +207,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.portfolio-list-item {
-  color: var(--highlight-color);
-}
+
 .header-address-links {
   font-weight: var(--font-weight-500);
   line-height: 1.14;
@@ -201,13 +216,9 @@ body {
 }
 .header-address-links:hover,
 .header-links:hover,
-.address-contacts:hover,
-.address-link:hover,
 .header-address-links:focus,
-.header-links:focus,
-.address-contacts:focus,
-.address-link:focus {
-  color: var(--hover-and-focus);
+.header-links:focus {
+  color: var(--highlight-color);
 }
 
 .main-section-buttons {
@@ -254,6 +265,7 @@ body {
 
 .footer {
   background-color: var(--footer-background-color);
+  height: 251px;
 }
 .footer-logo {
   font-family: "Raleway";
@@ -262,7 +274,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   margin-left: 215px;
-
+  margin-top: 60px;
+  margin-bottom: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -281,4 +294,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-list {
+  margin-top: 12px;
 }
