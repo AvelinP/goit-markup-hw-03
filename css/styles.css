@@ -142,20 +142,18 @@ body {
 .index-section2-list {
   display: flex;
   gap: 30px;
-  margin-left: 215px;
-  padding: 0px;
+  padding-left: 215px;
+  justify-content: center;
 }
 .section-what-we-do-image-list,
 .our-team-list {
   display: flex;
   gap: 30px;
-
-  margin-left: 215px;
-  padding: 0px;
+  justify-content: center;
+  padding-left: 215px;
 }
 .our-team {
   background-color: #f5f4fa;
-  margin: 0px;
 }
 
 .portfolio-main-section-buttons-list {
